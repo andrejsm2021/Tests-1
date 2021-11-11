@@ -11,11 +11,28 @@
         <h1>
             Pieteikuma anketa html nodarbībai
         </h1>
-    </div>
-    <p>
-        Te bija Elīza.
-    </p>
-    <form>
-        <>
+        <img src="atteli\html_Ziedi.png" alt="attēls">
+        <p> Ievadi datus par sevi: </p>
+        <form>
+            <label for="vards"> Vārds:</label>
+            <input type="text" name="vards">
+        </form>
+        <br><br>
+        <label for="vecums"> vecums:</label>
+        <select name="vecums">
+            <otion value="10-12">10-12 gadi</option>
+            <otion value="13-16">13-16 gadi</option>
+            <otion value="17-19">17-19 gadi</option>
+        </select>
+        <br><br>
+        <form>
+            <label for="papildus">Apgūšu arī JavaScript</label>
+            <input type="checkbox" name="papildus" checked>
+        </form>
+        <br><br>
+        <hr>
+        <br><br>
+        <button type="button">Iesniegt pieteikumu</button>
+      </div>
 </body>
 </html>
