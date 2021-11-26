@@ -1,1 +1,8 @@
-
+.kaste {
+  background: gray;
+  color: white;
+  width: 20%;
+  padding: 5xp;
+  border: 1xp solid black;
+  border-radius: 5xp;
+}
