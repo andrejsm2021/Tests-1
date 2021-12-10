@@ -1,9 +1,12 @@
 .kaste {
   margin: 50px 20px 50px 20px;
-  background: grey;
+  background: gray;
   color: white;
   width: 20%;
   padding: 5xp;
   border: 1xp solid black;
   border-radius: 5xp;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
 }
